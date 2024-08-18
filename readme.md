@@ -1,14 +1,18 @@
 # Credit Card Default Prediction
+<div style="text-align: center">
+  <img src="https://github.com/Abhishek4209/Consignment-Pricing-/blob/main/IMG.jpg" alt="">
+</div>
 
-## Background Information:-
-
-"Buy now, pay later" is a tempting offer in today's consumer-driven world. It allows us to satisfy our immediate desires without having the money upfront. However, this impulsive behavior often leads to mounting debt and financial distress, potentially pushing individuals into default or even fraudulent practices.
 
 ## Problem Statement:-
 We can tackle this problem using machine learning. By analyzing a buyer's financial history, we can assess their creditworthiness. While we can't control companies' marketing tactics, we can proactively evaluate individuals' financial backgrounds to make informed decisions about lending or offering credit.
 
 ## Objective:-
 The primary objective of this project is to leverage machine learning to predict whether a credit card user is likely to default on their payments. By evaluating past financial behaviors and patterns, we aim to provide credit decisions that are both responsible and sustainabl.
+
+## Background Information:-
+"Buy now, pay later" is a tempting offer in today's consumer-driven world. It allows us to satisfy our immediate desires without having the money upfront. However, this impulsive behavior often leads to mounting debt and financial distress, potentially pushing individuals into default or even fraudulent practices.
+
 
 
 <h1><center><font size="6">Default of Credit Card Clients - Predictive Models</font></center></h1>
@@ -70,3 +74,13 @@ There are 25 variables:
 * **default.payment.next.month**: Default payment (1=yes, 0=no)
 
 
+## Technical Details
+
+- **Python Version**: 3.9
+- **Machine Learning Models**: Gaussian Naive Bayes, XGBoost
+- **Model Performance**:
+  - XGBoost achieved a maximum accuracy score of **82.03%**.
+
+## Conclusion
+
+This project showcases how machine learning can be effectively used to predict credit card defaults. By analyzing historical financial data, we can make more informed and responsible credit decisions, ultimately contributing to a healthier financial ecosystem.
