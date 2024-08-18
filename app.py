@@ -20,7 +20,7 @@ def predictions():
         MARRIAGE=int(request.form.get('MARRIAGE')),
         AGE=int(request.form.get('AGE')),
         PAY_0=int(request.form.get('PAY_0')),
-        PAY_2=intt(request.form.get('PAY_2')),
+        PAY_2=int(request.form.get('PAY_2')),
         PAY_3=int(request.form.get('PAY_3')),
         PAY_4=int(request.form.get('PAY_4')),
         PAY_5=int(request.form.get('PAY_5')),

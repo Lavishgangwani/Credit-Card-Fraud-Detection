@@ -27,7 +27,7 @@ h1 {
 
 .result {
     margin-top: 20px;
-    color: #0e65b1;
+    color: #d75108;
 }
 
 #final_result {
@@ -37,7 +37,7 @@ h1 {
 
 #model_output {
     font-weight: bold;
-    color: #007bff;
+    color: #b18119;
 }
 
 .back-button {
