@@ -1,6 +1,6 @@
 # Credit Card Default Prediction
 <div style="text-align: center">
-  <img src="https://github.com/Abhishek4209/Consignment-Pricing-/blob/main/IMG.jpg" alt="">
+  <img src="https://github.com/Abhishek4209/Credit-Card-Default-Prediction/blob/main/image.png" alt="">
 </div>
 
 
