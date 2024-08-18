@@ -71,12 +71,68 @@ There are 25 variables:
 * **default.payment.next.month**: Default payment (1=yes, 0=no)
 
 
-## Technical Details
+## File Structure 
+    .
+    ├── app_exception           # Custom exception
+    ├── application_logging     # custom logger
+    ├── data_given              # Given Data
+    ├── data                    # raw / processed/ transformed data
+    ├── saved_models            # regression model
+    ├── report                  # model parameter and pipeline reports.
+    ├── notebook                # jupyter notebooks
+    ├── src                     # Source files for project implementation
+    ├── webapp                  # ml web application
+    ├── dvc.yaml                # data version control pipeline.
+    ├── app.py                  # Flask backend
+    ├── param.yaml              # parameters
+    ├── requirements.txt
+    └── README.md
 
-- **Python Version**: 3.9
-- **Machine Learning Models**: Gaussian Naive Bayes, XGBoost
-- **Model Performance**:
-  - XGBoost achieved a maximum accuracy score of **82.03%**.
+
+
+## Model information
+Experiments:
+
+         Model Name              R2 score 
+      1. Linear Regression         77.92       
+      2. Lasso Regression          82.03
+
+
+## Installation
+To run the code, first clone this repository and navigate to the project directory:
+```
+git clone https://github.com/Abhishek4209/Credit-Card-Default-Prediction.git
+```
+Create a virtual environment
+```
+conda create -p venv python==3.9 -y
+conda activate venv/
+```
+To run this project, you will need Python packages present in the requirements file
+```
+pip install -r requirements.txt
+```
+
+Then, run the `app.py` file to start the Flask web application:
+```
+python app.py
+```
+
+
+### Setup
+```pip install -e```
+
+### Package building
+``` python setup.py sdist bdist_wheel```
+
+## Run the Project
+- Clone the project
+- pip install -r requirements.txt
+- python app.py Enjoy the project in a local host
+
+## Contributions
+If you have any questions or suggestions regarding the project, please feel free to contact the project maintainer at `abhishekupadhyay9336@gmail.com`
+
 
 ## Conclusion
 
