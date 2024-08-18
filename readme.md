@@ -1,8 +1,5 @@
 # Credit Card Default Prediction
-<div style="text-align: center">
-  <img src="https://github.com/Abhishek4209/Credit-Card-Default-Prediction/blob/main/image.png" alt="">
-</div>
-
+![alt text](image.png)
 
 ## Problem Statement:-
 We can tackle this problem using machine learning. By analyzing a buyer's financial history, we can assess their creditworthiness. While we can't control companies' marketing tactics, we can proactively evaluate individuals' financial backgrounds to make informed decisions about lending or offering credit.
