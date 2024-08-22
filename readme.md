@@ -1,7 +1,7 @@
 # Credit Card Default Prediction
-## Deployment link
+## Demo Video link
 ```
-
+https://youtu.be/zCjSYIT-I-k?si=6ZxtegmFZlZQhcJt
 ```
 
 
