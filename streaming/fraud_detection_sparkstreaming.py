@@ -41,7 +41,7 @@ def process_stream(rdd):
         predictions.select("transaction_id", "prediction").show()
 
 # Create a DStream to listen for incoming data on localhost:9999
-transactions = ssc.socketTextStream("localhost", 9999)
+transactions = ssc.socketTextStream("localhost", 1234)
 parsed_data = transactions.map(lambda x: json.loads(x))
 parsed_data.pprint()  # Print parsed data for debugging
 
