@@ -5,6 +5,8 @@ numpy
 seaborn
 jupyter
 xgboost
-RandomForestClassifier
 ipykernel
-# -e .
+pyspark
+kafka-python
+
+-e .
