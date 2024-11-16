@@ -137,7 +137,7 @@ python app.py
 - python app.py Enjoy the project in a local host
 
 ## Contributions
-If you have any questions or suggestions regarding the project, please feel free to contact the project maintainer at `abhishekupadhyay9336@gmail.com`
+If you have any questions or suggestions regarding the project, please feel free to contact the project maintainer at `lavishgangwani22@gmail.com`
 
 
 ## Conclusion
